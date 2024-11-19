@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', url: 'https://github.com/your-username/project-repo.git'
+                git branch: 'main', url: 'https://github.com/majid9971/python-calculator-jenkins.git'
             }
         }
 
