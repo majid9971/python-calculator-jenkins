@@ -18,11 +18,6 @@ pipeline {
                 dir('frontend') {
                     sh 'npm install'
                 }
-                dir('backend') {
-                    sh 'python -m venv venv'
-                    sh './venv/bin/pip install -r requirements.txt'
-                }
-            }
         }
 
         stage('Run Tests') {
